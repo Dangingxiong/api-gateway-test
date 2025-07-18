@@ -1,9 +1,9 @@
 server:
   port: 8081
-
-logging:
-  level:
-    com:
-      bank:
-        test:
-          controller: info
+spring:
+  application:
+    name: provider-a
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848

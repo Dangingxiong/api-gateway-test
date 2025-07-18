@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class TestController {
-    @RequestMapping("/test")
+    @RequestMapping("/provider-a/test")
     public String helloApiGateway() {
         return "Hello Api-Gateway! Here is Provider-A!";
     }

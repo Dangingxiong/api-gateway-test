@@ -1,6 +1,13 @@
 server:
   port: 8082
 
+spring:
+  application:
+    name: provider-b
+  cloud:
+    nacos:
+        server-addr: localhost:8848
+
 logging:
   level:
     com:
